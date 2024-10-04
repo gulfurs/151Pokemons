@@ -99,3 +99,28 @@ h1 {
     margin-right: 20px;
     color: #ffcc00;
 }
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#search-input {
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #ffcc00;
+    background-color: #333;
+    color: #ffcc00;
+    font-size: 1em;
+    outline: none;
+}
+
+#search-input::placeholder {
+    color: #777;
+}
+
+#search-input:focus {
+    border-color: #fff;
+}
